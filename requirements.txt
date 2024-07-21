@@ -1,0 +1,9 @@
+numpy
+pandas
+gunicorn==22.0.0
+Flask
+seaborn
+ipykernel
+matplotlib
+scikit-learn
+-e .
