@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, jsonify
 from src.pipeline.prediction_pipeline import CustomData, PredictPipeline
 
 
-application = Flask(__name__)
+app = Flask(__name__)
 
 
 # @app.route('/')
